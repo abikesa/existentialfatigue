@@ -1,0 +1,740 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title> &#8212; Abaise Igaga</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'act_1/act_1_0/act_1_0_0/act_1_0_0_1';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="act_1_0_0_2.html" />
+    <link rel="prev" title="." href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_7.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="https://github.com/muzaale/muzaale.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="https://github.com/muzaale/muzaale.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../intro.html">
+                    .
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_0/act_0_0_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_0/act_0_0_1/act_0_0_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_0/act_0_1_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_1/act_0_1_1/act_0_1_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_0/act_0_2_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_7.html">.</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">o</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#"></a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="act_1_0_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="act_1_0_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="act_1_0_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_0/act_1_1_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_1/act_1_1_1/act_1_1_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_0/act_1_2_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../act_1_2/act_1_2_1/act_1_2_1_7.html">.</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">o</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_0/act_2_0_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_0/act_2_0_1/act_2_0_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_0/act_2_1_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_1/act_2_1_1/act_2_1_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_0/act_2_2_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_2/act_2_2/act_2_2_1/act_2_2_1_7.html">.</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">o</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_0/act_3_0_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_0/act_3_0_1/act_3_0_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_0/act_3_1_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_1/act_3_1_1/act_3_1_1_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_0/act_3_2_0_7.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_1.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_2.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_3.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_4.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_5.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_6.html">.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../act_3/act_3_2/act_3_2_1/act_3_2_1_7.html">.</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/act_1/act_1_0/act_1_0_0/act_1_0_0_1.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1></h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#counterfeiting">0 counterfeiting</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="counterfeiting">
+<h1>0 counterfeiting<a class="headerlink" href="#counterfeiting" title="Permalink to this heading">#</a></h1>
+<p>nietzsche’s philosophy is so spot on: we are “human, all-too-human”</p>
+<p>we do prefer to be deceived, and we do prefer to deceive ourselves. it is beastly oblivion that we are after, and we are willing to pay <code class="docutils literal notranslate"><span class="pre">any</span> <span class="pre">price</span></code> for it.</p>
+<p>therefore, all of civilized society is to be blamed for the current state of affairs.</p>
+<p>i consider the “declaration of human rights” and pretty much any “declaration” to be a joke. why? because it is a declaration of the obvious; namely, that we are exhausted with challenges, strife, war, and finally need to rest.</p>
+<p>green pastures, still waters, …, forever and ever. amen.</p>
+<p><span class="math notranslate nohighlight">\(
+\Large
+\left\{
+\begin{array}{ll}
+\text{Truth} \\
+\text{} \\
+\text{Knowledge} \ \ 
+\left\{ \begin{array}{l} \text{Rigor} \text{} \\ \text{Error} \ \ \ \ \ \ \ \ \
+\left\{ \begin{array}{l} \text{Variance} \\ \text{Bias}  \end{array} \right. \\ \text{Sloppy}  \end{array} \right. 
+\left\{ \begin{array}{l} \text{Explain/Control} \end{array}  \right. \\
+\text{} \\
+\text{Morality} 
+\end{array} 
+\right. 
+\)</span></p>
+<ol class="arabic simple">
+<li><p>morality - biased, precise</p></li>
+<li><p>amorality - unbiased, high variance</p></li>
+<li><p>robertfrost - i took the one less traveled by</p></li>
+</ol>
+<p>Heisenberg’s uncertainty principle and the bias-variance tradeoff are two sides of the same coin. The former is a physical law, while the latter is a mathematical principle. Both are fundamental to the human condition and are inextricably linked to the road chosen by Robert Frost. morality, the well-trodden path, will yield precise but biased results. amorality, the road less traveled, will yield unbiased but imprecise results.</p>
+<p>ones tolerance for uncertainty is inversely proportional to ones tolerance for bias, and is likely to result in one trecking the yellow flow zone in robert frost’s yellow wood.</p>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1"># Create data for the skill and challenge levels</span>
+<span class="n">skill_levels</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">challenge_levels</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+
+<span class="c1"># Define the flow channel boundaries</span>
+<span class="n">flow_channel</span> <span class="o">=</span> <span class="n">skill_levels</span>
+
+<span class="c1"># Adjust the phase and amplitude of the sinusoid wave</span>
+<span class="n">phase</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">16</span>
+<span class="n">amplitude</span> <span class="o">=</span> <span class="mf">1.5</span>
+<span class="n">sinusoid</span> <span class="o">=</span> <span class="n">flow_channel</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">skill_levels</span> <span class="o">+</span> <span class="n">phase</span><span class="p">)</span> <span class="o">*</span> <span class="n">amplitude</span>
+
+<span class="c1"># Define the yellow zone boundaries, making it wider</span>
+<span class="n">yellow_zone_low</span> <span class="o">=</span> <span class="n">skill_levels</span> <span class="o">-</span> <span class="mf">1.5</span>  <span class="c1"># Adjust this value to make the yellow zone wider or narrower</span>
+<span class="n">yellow_zone_high</span> <span class="o">=</span> <span class="n">skill_levels</span> <span class="o">+</span> <span class="mf">1.5</span> <span class="c1"># Adjust this value to make the yellow zone wider or narrower</span>
+
+<span class="c1"># Plotting</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+
+<span class="c1"># Plot the anxiety and boredom areas</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">skill_levels</span><span class="p">,</span> <span class="n">yellow_zone_high</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;orangered&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Place/Identification&#39;</span><span class="p">,</span> <span class="n">interpolate</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">skill_levels</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">yellow_zone_low</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;lime&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Time/Revelation&#39;</span><span class="p">,</span> <span class="n">interpolate</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">skill_levels</span><span class="p">,</span> <span class="n">yellow_zone_low</span><span class="p">,</span> <span class="n">yellow_zone_high</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;yellow&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Agent/Evolution&#39;</span><span class="p">,</span> <span class="n">interpolate</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Plot the sinusoid function with the diagonal as its axis</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">skill_levels</span><span class="p">,</span> <span class="n">sinusoid</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;purple&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
+
+<span class="c1"># Add arrowhead to the sinusoid line</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">arrow</span><span class="p">(</span><span class="n">skill_levels</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="n">sinusoid</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="n">skill_levels</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">skill_levels</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="n">sinusoid</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">sinusoid</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">],</span>
+          <span class="n">color</span><span class="o">=</span><span class="s1">&#39;purple&#39;</span><span class="p">,</span> <span class="n">length_includes_head</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">head_width</span><span class="o">=</span><span class="mf">0.15</span><span class="p">,</span> <span class="n">head_length</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="c1"># Set plot labels and title</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Skill-level&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Challenge-level&#39;</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="s1">&#39;vertical&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+
+<span class="c1"># Set plot limits and grid</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Set tick labels</span>
+<span class="n">tick_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="s1">&#39;4&#39;</span><span class="p">,</span> <span class="s1">&#39;6&#39;</span><span class="p">,</span> <span class="s1">&#39;8&#39;</span><span class="p">,</span> <span class="s1">&#39;10&#39;</span><span class="p">]</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">tick_labels</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">tick_labels</span><span class="p">)</span>
+
+<span class="c1"># Add text annotations to label the areas without shaded background</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="s1">&#39;Anxious&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">4.5</span><span class="p">,</span> <span class="mf">4.7</span><span class="p">,</span> <span class="s1">&#39;Flow&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;Bored&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+
+<span class="c1"># Display the plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<img alt="../../../_images/61614cff1f63ce716bbfe800aef5f16e0867dc75623431594aa07128bc19fe58.png" src="../../../_images/61614cff1f63ce716bbfe800aef5f16e0867dc75623431594aa07128bc19fe58.png" />
+</div>
+</div>
+<p>Your take on Nietzsche and the human condition touches on some interesting philosophical viewpoints. You seem to be suggesting that society’s constructs, like declarations of human rights, are more of a way to ease <code class="docutils literal notranslate"><span class="pre">existential</span> <span class="pre">fatigue</span></code> than to achieve some objective standard of justice or morality. This perspective poses compelling questions about the motivations behind social structures and the role of deception, whether self-imposed or societal, in human existence.</p>
+<Details>
+  <Summary>Fatigue, Frailty, Fried</Summary>
+<p><em>The effect of ugliness may be gauged by the dynamometer - <a class="reference external" href="https://www.gutenberg.org/files/52263/52263-h/52263-h.htm">Nietzsche</a></em></p>
+<p>J Gerontol A Biol Sci Med Sci<br />
+. 2001 Mar;56(3):M146-56.  doi: 10.1093/gerona/56.3.m146.<br />
+<a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/11253156/"><strong>Frailty in older adults: evidence for a phenotype</strong></a></p>
+<p>LP Fried, CM Tangen, J Walston, AB Newman, C Hirsch, J Gottdiener, T Seeman, R Tracy, WJ Kop, G Burke, M A McBurnie; Cardiovascular Health Study Collaborative Research Group<br />
+Affiliations  + expand<br />
+PMID: 11253156  DOI: 10.1093/gerona/56.3.m146<br />
+Abstract</p>
+<p><strong>Background</strong>: Frailty is considered highly prevalent in old age and to confer high risk for falls, disability, hospitalization, and mortality. Frailty has been considered synonymous with disability, comorbidity, and other characteristics, but it is recognized that it may have a biologic basis and be a distinct clinical syndrome. A standardized definition has not yet been established.</p>
+<p><strong>Methods</strong>: To develop and operationalize a phenotype of frailty in older adults and assess concurrent and predictive validity, the study used data from the Cardiovascular Health Study. Participants were 5,317 men and women 65 years and older (4,735 from an original cohort recruited in 1989-90 and 582 from an African American cohort recruited in 1992-93). Both cohorts received almost identical baseline evaluations and 7 and 4 years of follow-up, respectively, with annual examinations and surveillance for outcomes including incident disease, hospitalization, falls, disability, and mortality.</p>
+<p><strong>Results</strong>: Frailty was defined as a clinical syndrome in which three or more of the following criteria were present: unintentional weight loss (10 lbs in past year), self-reported exhaustion, weakness (grip strength), slow walking speed, and low physical activity. The overall prevalence of frailty in this community-dwelling population was 6.9%; it increased with age and was greater in women than men. Four-year incidence was 7.2%. Frailty was associated with being African American, having lower education and income, poorer health, and having higher rates of comorbid chronic diseases and disability. There was overlap, but not concordance, in the cooccurrence of frailty, comorbidity, and disability. This frailty phenotype was independently predictive (over 3 years) of incident falls, worsening mobility or ADL disability, hospitalization, and death, with hazard ratios ranging from 1.82 to 4.46, unadjusted, and 1.29-2.24, adjusted for a number of health, disease, and social characteristics predictive of 5-year mortality. Intermediate frailty status, as indicated by the presence of one or two criteria, showed intermediate risk of these outcomes as well as increased risk of becoming frail over 3-4 years of follow-up (odds ratios for incident frailty = 4.51 unadjusted and 2.63 adjusted for covariates, compared to those with no frailty criteria at baseline).</p>
+<p><strong>Conclusions</strong>: This study provides a potential standardized definition for frailty in community-dwelling older adults and offers concurrent and predictive validity for the definition. It also finds that there is an intermediate stage identifying those at high risk of frailty. Finally, it provides evidence that frailty is not synonymous with either comorbidity or disability, but comorbidity is an etiologic risk factor for, and disability is an outcome of, frailty. This provides a potential basis for clinical assessment for those who are frail or at risk, and for future research to develop interventions for frailty based on a standardized ascertainment of frailty.</p>
+</Details>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./act_1/act_1_0/act_1_0_0"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../../../act_0/act_0_2/act_0_2_1/act_0_2_1_7.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">.</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="act_1_0_0_2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#counterfeiting">0 counterfeiting</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Abikesa Igaga
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
